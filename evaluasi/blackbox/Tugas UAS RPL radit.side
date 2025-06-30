@@ -1,0 +1,152 @@
+{
+  "id": "3d90a146-80e6-4bea-bdd1-0252ba447097",
+  "version": "2.0",
+  "name": "Tugas UAS RPL radit",
+  "url": "https://shiny-funicular-wr7qrw6rwgrxhgjw-5000.app.github.dev",
+  "tests": [{
+    "id": "e6263f04-ab0f-4cf6-a61b-e52639d15328",
+    "name": "testing radit",
+    "commands": [{
+      "id": "395f9edf-e4af-4eea-b97a-bced48bf1322",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7beaa0e4-0a91-49a5-9cb7-636dad581b66",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "893x1010",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85a429ff-6805-4239-a365-9c83ccbec374",
+      "comment": "",
+      "command": "click",
+      "target": "name=note",
+      "targets": [
+        ["name=note", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='note']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da07f7c2-c415-43ae-83f9-44b461afe923",
+      "comment": "",
+      "command": "type",
+      "target": "name=note",
+      "targets": [
+        ["name=note", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='note']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ganteng"
+    }, {
+      "id": "4fe33e92-790d-4806-b77d-ff5d16d0f6e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Note')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad78386a-0c7b-4e40-b2e2-2251771eb4ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > button",
+      "targets": [
+        ["css=a > button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "574d61ef-e190-45f8-9912-9128725a3528",
+      "comment": "",
+      "command": "click",
+      "target": "name=new_note",
+      "targets": [
+        ["name=new_note", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='new_note']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c18586e1-a87f-4622-b0f8-f9215f1275ea",
+      "comment": "",
+      "command": "type",
+      "target": "name=new_note",
+      "targets": [
+        ["name=new_note", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='new_note']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ganteng123"
+    }, {
+      "id": "22fb8d0c-d9e1-41ca-bb6f-015154ccbe23",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bb85af2-1c91-4a9b-8dea-bdae3d4c7ff2",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0adf9333-02d1-4f33-9762-d1cae5ba159b",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(2) > button",
+      "targets": [
+        ["css=form:nth-child(2) > button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c232f0-e734-4f87-bb9b-e3bbd7d199a0",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Yakin ingin menghapus catatan ini?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c865179-0a33-4270-85f2-28ce58d46856",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8aa0b6c8-fdf1-46eb-99a9-1290ccf6b92b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e6263f04-ab0f-4cf6-a61b-e52639d15328"]
+  }],
+  "urls": ["https://shiny-funicular-wr7qrw6rwgrxhgjw-5000.app.github.dev/"],
+  "plugins": []
+}
